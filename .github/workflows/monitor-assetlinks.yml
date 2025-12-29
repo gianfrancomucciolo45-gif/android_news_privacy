@@ -1,0 +1,49 @@
+name: Monitor AssetLinks Endpoint
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"  # every 15 minutes
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run assetlinks check
+        id: check
+        run: |
+          bash tools/check_assetlinks.sh
+
+      - name: Summarize
+        if: always()
+        run: |
+          echo "### AssetLinks check $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "- Result: ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
+
+      - name: Create success issue once
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = 'AssetLinks OK on androidnews.app';
+            const { data: issues } = await github.rest.search.issuesAndPullRequests({
+              q: `repo:${context.repo.owner}/${context.repo.repo} is:issue in:title "${title}"`,
+            });
+            const exists = issues.items && issues.items.length > 0;
+            if (!exists) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body: [
+                  'L\'endpoint https://androidnews.app/.well-known/assetlinks.json risulta OK (200, JSON valido).',
+                  '',
+                  'Puoi ora tornare in Play Console → Collegamenti app e usare “Ricontrolla la verifica”.',
+                ].join('\n')
+              });
+            } else {
+              core.info('Success issue already exists; skipping.');
+            }
