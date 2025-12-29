@@ -2,3 +2,31 @@ theme: jekyll-theme-cayman
 title: Android News - Privacy Policy
 description: Privacy Policy per l'applicazione Android News
 show_downloads: false
+exclude:
+  - android/
+  - ios/
+  - lib/
+  - test/
+  - tools/
+  - web/
+  - windows/
+  - linux/
+  - macos/
+  - assets/
+  - build/
+  - docs/
+  - node_modules/
+  - .vscode/
+  - .github/
+  - .well-known/
+  - .metadata
+  - .gitignore
+  - pubspec.yaml
+  - pubspec.lock
+  - analysis_options.yaml
+  - l10n.yaml
+  - key.properties
+  - android_news.iml
+  - README.md
+  - QUICK_START.md
+  - ROADMAP.md
