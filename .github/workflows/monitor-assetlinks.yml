@@ -12,8 +12,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Check DNS configuration
+        id: dns_check
+        run: |
+          bash tools/check_dns.sh
+        continue-on-error: true
+
       - name: Run assetlinks check
         id: check
+        if: steps.dns_check.outcome == 'success'
         run: |
           bash tools/check_assetlinks.sh
 
@@ -21,7 +28,8 @@ jobs:
         if: always()
         run: |
           echo "### AssetLinks check $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
-          echo "- Result: ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
+          echo "- DNS Status: ${{ steps.dns_check.outcome }}" >> $GITHUB_STEP_SUMMARY
+          echo "- AssetLinks Result: ${{ steps.check.outcome || 'skipped' }}" >> $GITHUB_STEP_SUMMARY
 
       - name: Send success email (optional)
         if: success() && secrets.SMTP_HOST != ''
