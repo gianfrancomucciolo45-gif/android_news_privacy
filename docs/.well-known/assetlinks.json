@@ -1,11 +1,11 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": ["delegate_permission/common.handle_all_urls", "delegate_permission/common.get_login_creds"],
     "target": {
       "namespace": "android_app",
       "package_name": "com.mucciologianfranco.android_news",
       "sha256_cert_fingerprints": [
-        "5C:E5:7E:6D:F3:78:A9:3F:B8:93:C5:F8:75:05:86:E9:A4:EA:17:3B:0B:34:F5:9C:C5:87:C8:2A:70:CF:8B:72"
+        "E0:F5:BB:46:A1:99:3D:AE:BC:4E:6A:46:A3:BE:C9:08:EA:94:12:74:A7:67:B0:2D:BE:A8:17:DC:15:36:07:B0"
       ]
     }
   }
