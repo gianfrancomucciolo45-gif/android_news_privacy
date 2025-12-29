@@ -1,6 +1,8 @@
-# Play Console Automation (Playwright)
+# Playwright Automation - Play Console & App Links
 
-Automazione semi-assistita per completare la configurazione dell'app su Google Play Console.
+Automazione completa per:
+1. **Play Console:** Configurazione store listing, pricing, content
+2. **App Links:** Setup DNS, GitHub Pages, verifica domini
 
 ## Requisiti
 - Node.js 18+
@@ -56,7 +58,76 @@ npm run all
 - `SELECT_BY`: `title` o `package`
 - `PACKAGE_NAME`: necessario se `SELECT_BY=package`
 
+## App Links Setup (NUOVO)
+
+### Quick Start Automatico
+
+```bash
+cd ../..  # Torna alla root del progetto
+./tools/setup-app-links-complete.sh
+```
+
+Lo script orchestratore esegue tutto automaticamente:
+1. Verifica prerequisiti
+2. Controlla/attende propagazione DNS
+3. Configura GitHub Pages (custom domain + HTTPS)
+4. Verifica endpoint assetlinks.json
+5. Esegue recheck su Play Console
+
+### Test Individuali
+
+```bash
+# Configura GitHub Pages
+npx playwright test src/configure-github-pages.spec.ts --headed
+
+# Recheck Play Console
+npx playwright test src/verify-app-links.spec.ts --headed --grep "Recheck"
+```
+
+### Prerequisiti App Links
+
+1. **DNS configurato** (vedi [../../docs/DNS_SETUP.md](../../docs/DNS_SETUP.md)):
+   ```
+   Type: A  @  185.199.108.153
+   Type: A  @  185.199.109.153
+   Type: A  @  185.199.110.153
+   Type: A  @  185.199.111.153
+   ```
+
+2. **GitHub Token** (opzionale, per automazione completa):
+   ```bash
+   export GITHUB_TOKEN=ghp_your_token_here
+   ```
+
+3. **Verifica script:**
+   ```bash
+   ../../tools/check_dns.sh
+   ../../tools/check_assetlinks.sh
+   ```
+
+### Output Atteso
+
+✅ DNS configurato  
+✅ GitHub Pages custom domain: androidnews.app  
+✅ HTTPS enforced  
+✅ Endpoint https://androidnews.app/.well-known/assetlinks.json → 200 OK  
+✅ Play Console App Links verificati  
+
 ## Troubleshooting
+
+### Play Console
 - Se dopo il login non viene salvato lo stato: ripeti `npm run login` e attendi di vedere la pagina "Tutte le app".
 - Selezioni non trovate: aumenta i timeout o aggiorna i selettori testuali in `src/utils.ts`.
 - Per esecuzioni headless: imposta `headless: true` negli script (consigliato interattivo per la Play Console).
+
+### App Links
+- **DNS non propagato:** Verifica con `dig @8.8.8.8 androidnews.app`, attendi 5-30 min
+- **Certificato SSL non pronto:** Normale per domini nuovi, attendi 10-20 min
+- **Endpoint 404:** Verifica HTTPS attivo e .nojekyll presente (già nel repo)
+- **Test timeout:** Aumenta timeout in `playwright.config.ts` a 300000 (5 min)
+
+## Documentazione Completa
+
+- App Links Setup: [../../QUICK_START.md](../../QUICK_START.md)
+- DNS Configuration: [../../docs/DNS_SETUP.md](../../docs/DNS_SETUP.md)
+- Email Notifications: [../../docs/NOTIFICATIONS_SETUP.md](../../docs/NOTIFICATIONS_SETUP.md)
