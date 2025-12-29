@@ -1,0 +1,117 @@
+{
+  "@@locale": "en",
+  "appTitle": "Android News",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "home": "Home",
+  "bookmarks": "Bookmarks",
+  "settings": "Settings",
+  "search": "Search",
+  "searchHint": "Search articles...",
+  "noResults": "No articles found",
+  "noResultsDesc": "Try adjusting your search",
+  "refresh": "Refresh",
+  "allArticles": "All Articles",
+  "readMore": "Read More",
+  "readFullArticle": "Read full article",
+  "share": "Share",
+  "copyLink": "Copy Link",
+  "linkCopied": "Link copied to clipboard",
+  "openInBrowser": "Open in Browser",
+  "bookmark": "Bookmark",
+  "removeBookmark": "Remove Bookmark",
+  "bookmarked": "Bookmarked",
+  "noBookmarks": "No bookmarks yet",
+  "noBookmarksDesc": "Save articles to read later",
+  "clearAllBookmarks": "Clear All Bookmarks",
+  "clearAllConfirm": "Are you sure you want to remove all bookmarks?",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "deleted": "Deleted",
+  "appearance": "Appearance",
+  "theme": "Theme",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "layout": "Layout",
+  "layoutList": "List",
+  "layoutGrid": "Grid",
+  "textSize": "Text Size",
+  "sources": "News Sources",
+  "manageSources": "Manage Sources",
+  "enableDisableSources": "Enable or disable news sources",
+  "reorderSources": "Drag to reorder sources",
+  "storage": "Storage",
+  "cacheSize": "Cache Size",
+  "clearCache": "Clear Cache",
+  "cacheCleared": "Cache cleared successfully",
+  "maxCacheSize": "Max Cache Size",
+  "mb": "MB",
+  "about": "About",
+  "version": "Version",
+  "offline": "Offline",
+  "offlineMessage": "You are offline. Showing cached articles.",
+  "loadingArticles": "Loading articles...",
+  "errorLoadingArticles": "Error loading articles",
+  "retry": "Retry",
+  "minutesAgo": "{minutes}m ago",
+  "@minutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "hoursAgo": "{hours}h ago",
+  "@hoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "daysAgo": "{days}d ago",
+  "@daysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "justNow": "Just now",
+  "settingsNotifications": "Notifications",
+  "notificationsBreakingNews": "Breaking News",
+  "notificationsBreakingNewsDesc": "Receive notifications for urgent news",
+  "notificationsFavoriteSources": "Favorite Sources",
+  "notificationsFavoriteSourcesDesc": "Receive notifications from selected sources",
+  "notificationsSelectSources": "Select Sources",
+  "notificationsSelectSourcesDesc": "Receive notifications only from selected sources",
+  "notificationsUnavailable": "Notifications unavailable",
+  "notificationsEnablePermissions": "Enable notification permissions in device settings",
+  "backgroundSyncSettings": "Background Sync Settings",
+  "enableBackgroundSync": "Enable Background Sync",
+  "syncArticlesAutomatically": "Automatically sync new articles",
+  "syncFrequency": "Sync Frequency",
+  "every": "Every",
+  "hours": "hours",
+  "smartSyncDescription": "Frequency adapts automatically to your usage patterns",
+  "syncStatistics": "Sync Statistics",
+  "lastSync": "Last Sync",
+  "syncsToday": "Syncs Today",
+  "articlesReadToday": "Articles Read Today",
+  "manualSync": "Manual Sync",
+  "downloadLatestArticles": "Download latest articles",
+  "syncNow": "Sync Now",
+  "howItWorks": "How It Works",
+  "backgroundSyncInfo": "Background sync automatically downloads new articles when you're connected to WiFi and battery is sufficient. Frequency adapts to your usage to save battery.",
+  "batteryFriendly": "Battery Friendly",
+  "wifiOnly": "WiFi Only",
+  "smartTiming": "Smart Timing",
+  "backgroundSyncEnabled": "Background sync enabled",
+  "backgroundSyncDisabled": "Background sync disabled",
+  "manualSyncStarted": "Manual sync started",
+  "never": "Never",
+  "minutesAgo": "minutes ago",
+  "daysAgo": "days ago"
+}

@@ -1,0 +1,85 @@
+{
+  "cookies": [
+    {
+      "name": "_ga_4872ESP9WN",
+      "value": "GS2.1.s1766063103$o1$g0$t1766063103$j60$l0$h0",
+      "domain": ".play.google.com",
+      "path": "/",
+      "expires": 1800623103.603269,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.644459999.1766063104",
+      "domain": ".play.google.com",
+      "path": "/",
+      "expires": 1800623103.773657,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_Q95GVHFKLZ",
+      "value": "GS2.1.s1766063103$o1$g0$t1766063103$j60$l0$h0",
+      "domain": ".play.google.com",
+      "path": "/",
+      "expires": 1800623103.772501,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "NID",
+      "value": "527=HSoSxM_gmkfzYIup1EYSi5e-wtX2KYn71Sk4Mz9yWBHMg0W5822Zu9elU-ydxWogICEWouO-D1Eo8KT-3M-jTqKSx3QvbPed_0p3l9woTXOzeWSkFxM0paA9HM6SjNt8BMTFxrAO2oZaMavsMlbcyQHAmBmaEQjFkdAO20t5SEbohJvsC3hkRMmutQ-6RZHhh0dK0PElYkG-IeUl1WmMFXrjUTTUUapKdVYOhCvxO1UbvTRqUHMB",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1781874305.546778,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "AEC",
+      "value": "AaJma5t4eCyBalOOe5WpmZo1j2dYiDRRcs-e_NQ6PzUf2T6TV0nHhWWtoCw",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1781615141.66375,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-BUCKET",
+      "value": "CIsB",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1781615141.663983,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-ENID",
+      "value": "30.SE=ZvqPSveOymgddX1RiGJ40s4N7rLcbjHBueiWnYZ08G1ORdiiukw7u0sMU0L4SDyRzospI54jDWt0w17oxxHD90LdzMS0ox0WokkYqyidyyYTzsoK28aVZ2DkLjyvGoWXGfx-h5izIhZUgGU48CcZWmvXHldRTdF1h09Fr80fW5OcNk5cVQyCF6Goxa6khva3GFti4NnCAXOVbmPAjOWi2HtyBfwmB24z651OZ7iEroa9ipNcPusPJ1anAxtDpBXg2_77TlNWA80ge2Mte2F7l5iGfzffZG16TEY",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1800249839.63754,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::a",
+          "value": "MTFkZGs2NzFzYmQwbXY="
+        }
+      ]
+    }
+  ]
+}

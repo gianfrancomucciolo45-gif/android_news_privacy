@@ -1,0 +1,1088 @@
+### Page state
+- Page URL: https://play.google.com/console/u/0/developers/4860322610470959338/app/4974057389412564303/subscriptions/s/premium_subscription/base-plans/create
+- Page Title: Aggiungi piano base | Android News
+- Page Snapshot:
+```yaml
+- generic [ref=e1]:
+  - generic:
+    - generic:
+      - img
+      - progressbar
+      - generic: Caricamento di Google Play Console
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "Logo di Google Play Console" [ref=e7] [cursor=pointer]:
+          - /url: /console/u/0/developers/4860322610470959338/app-list
+          - button "Logo di Google Play Console" [ref=e8]
+        - generic [ref=e9]:
+          - button "Notifiche Apri il Centro notifiche" [ref=e15]:
+            - img [ref=e20]: notifications
+            - generic [ref=e22]: Notifiche
+          - generic [ref=e23]:
+            - button "Android News" [ref=e31] [cursor=pointer]:
+              - generic [ref=e35]:
+                - img [ref=e37]
+                - generic [ref=e41]: Android News
+            - button "Cambia account sviluppatore" [ref=e47] [cursor=pointer]:
+              - img "Cambia account sviluppatore" [ref=e49]
+    - navigation [ref=e55]:
+      - link "Tutte le app" [ref=e56] [cursor=pointer]:
+        - /url: /console/u/0/developers/4860322610470959338/app-list
+        - img [ref=e58]: keyboard_backspace
+        - generic [ref=e59]: Tutte le app
+      - list [ref=e60]:
+        - listitem "Dashboard" [ref=e63]:
+          - button "Dashboard" [ref=e64] [cursor=pointer]:
+            - img [ref=e67]: dashboard
+            - generic [ref=e68]: Dashboard
+        - listitem "Statistiche" [ref=e71]:
+          - button "Statistiche" [ref=e72] [cursor=pointer]:
+            - img [ref=e75]: bar_chart
+            - generic [ref=e76]: Statistiche
+        - listitem "Panoramica della pubblicazione" [ref=e79]:
+          - button "Panoramica della pubblicazione" [ref=e80] [cursor=pointer]:
+            - img [ref=e83]
+            - generic [ref=e84]: Panoramica della pubblicazione
+        - listitem "Testa e rilascia" [ref=e87]:
+          - button "Testa e rilascia" [ref=e88] [cursor=pointer]:
+            - img [ref=e91]: rocket_launch
+            - generic [ref=e92]: Testa e rilascia
+        - listitem "Monitora e migliora" [ref=e124]:
+          - button "Monitora e migliora" [ref=e125] [cursor=pointer]:
+            - img [ref=e128]
+            - generic [ref=e129]: Monitora e migliora
+        - listitem "Espandi la base utenti" [ref=e132]:
+          - button "Espandi la base utenti" [ref=e133] [cursor=pointer]:
+            - img [ref=e136]: finance_mode
+            - generic [ref=e137]: Espandi la base utenti
+        - listitem "Monetizza con Google Play" [ref=e140]:
+          - button "Monetizza con Google Play" [ref=e141] [cursor=pointer]:
+            - img [ref=e144]: sell
+            - generic [ref=e145]: Monetizza con Google Play
+          - list [ref=e3875]:
+            - generic [ref=e3877]:
+              - listitem "Prodotti" [ref=e3879]:
+                - button "Prodotti" [ref=e3880] [cursor=pointer]:
+                  - generic [ref=e3881]: Prodotti
+                  - img [ref=e3883]: expand_less
+                - list [ref=e4068]:
+                  - generic [ref=e4070]:
+                    - listitem "Prezzo dell'app" [ref=e4072]:
+                      - button "Prezzo dell'app" [ref=e4073] [cursor=pointer]:
+                        - generic [ref=e4074]: Prezzo dell'app
+                    - listitem "Prodotti a pagamento singolo" [ref=e4076]:
+                      - button "Prodotti a pagamento singolo" [ref=e4077] [cursor=pointer]:
+                        - generic [ref=e4078]: Prodotti a pagamento singolo
+                    - listitem "Abbonamenti" [ref=e4080]:
+                      - button "Abbonamenti" [ref=e4081] [cursor=pointer]:
+                        - generic [ref=e4082]: Abbonamenti
+              - listitem "Esperimenti sui prezzi" [ref=e3885]:
+                - button "Esperimenti sui prezzi" [ref=e3886] [cursor=pointer]:
+                  - generic [ref=e3887]: Esperimenti sui prezzi
+              - listitem "Consigli di acquisto" [ref=e3889]:
+                - button "Consigli di acquisto" [ref=e3890] [cursor=pointer]:
+                  - generic [ref=e3891]: Consigli di acquisto
+              - listitem "Codici promozionali" [ref=e3893]:
+                - button "Codici promozionali" [ref=e3894] [cursor=pointer]:
+                  - generic [ref=e3895]: Codici promozionali
+              - listitem "Report finanziari" [ref=e3897]:
+                - button "Report finanziari" [ref=e3898] [cursor=pointer]:
+                  - generic [ref=e3899]: Report finanziari
+                  - img [ref=e3901]: expand_more
+              - listitem "Configurazione della monetizzazione" [ref=e3903]:
+                - button "Configurazione della monetizzazione" [ref=e3904] [cursor=pointer]:
+                  - generic [ref=e3905]: Configurazione della monetizzazione
+    - generic [ref=e147]:
+      - generic [ref=e4298]:
+        - generic [ref=e4302]:
+          - link "Torna a Abbonamenti Premium" [ref=e4305] [cursor=pointer]:
+            - /url: /console/u/0/developers/4860322610470959338/app/4974057389412564303/subscriptions/s/premium_subscription
+            - img [ref=e4309]: keyboard_backspace
+            - generic [ref=e4310]: Abbonamenti | Premium
+          - heading "Aggiungi piano base" [level=1] [ref=e4319]
+        - generic [ref=e4324]:
+          - group "ID piano base" [ref=e4326]:
+            - generic [ref=e4329]: ID piano base
+            - generic [ref=e4331]:
+              - generic [ref=e4332]:
+                - textbox "Campo per l'ID piano base" [ref=e4334]: monthly_annual
+                - generic [ref=e4335]:
+                  - alert [ref=e6272]: Deve iniziare con un numero o una lettera minuscola e può contenere numeri (0-9), lettere minuscole (a-z) e trattini (-)
+                  - generic [ref=e4337]:
+                    - generic [ref=e4338]: 14/63
+                    - generic [ref=e4339]: Il testo contiene 14 caratteri su 63
+              - paragraph [ref=e4340]:
+                - text: Non puoi modificare o utilizzare nuovamente l'ID dopo aver creato il piano.
+                - link "Scopri di più sugli abbonamenti Google Play" [ref=e4342] [cursor=pointer]:
+                  - /url: https://support.google.com/googleplay/android-developer/answer/140504?#create_new_base_plan&zippy=%2Ccreate-and-activate-a-base-plan
+                  - text: Scopri di più
+          - group "Tipo" [ref=e4344]:
+            - generic [ref=e4347]: Tipo
+            - radiogroup [ref=e4350]:
+              - generic [ref=e4351] [cursor=pointer]:
+                - radio "Rinnovo automatico" [checked] [ref=e4353]
+                - generic [ref=e4356]:
+                  - text: Rinnovo automatico
+                  - generic [ref=e4357]: Gli utenti effettuano pagamenti ricorrenti. Il piano si rinnova automaticamente a meno che non venga annullato dall'utente.
+              - generic [ref=e12280]:
+                - group "Periodo di fatturazione" [ref=e12282]:
+                  - generic [ref=e12285]: Periodo di fatturazione
+                  - button "Ogni mese" [ref=e12290] [cursor=pointer]:
+                    - generic [ref=e12291]: Ogni mese
+                    - img [ref=e12293]: arrow_drop_down
+                - group "Periodo di tolleranza e di sospensione dell'account" [ref=e12295]:
+                  - generic [ref=e12298]:
+                    - text: Periodo di tolleranza e di sospensione dell'account
+                    - button "Descrizione comando per \"Periodo di tolleranza e di sospensione dell'account\"" [ref=e12301] [cursor=pointer]:
+                      - img [ref=e12302]: help
+                  - generic [ref=e12305]:
+                    - generic [ref=e12307]:
+                      - generic:
+                        - generic:
+                          - generic: Periodo di tolleranza
+                      - textbox "Campo Periodo di tolleranza" [ref=e12308]: "7"
+                      - generic [ref=e12309]: giorni
+                    - generic [ref=e12310]:
+                      - text: Ti consigliamo un periodo di tolleranza pari a 7 giorni.
+                      - link "Scopri di più sugli abbonamenti Google Play" [ref=e12312] [cursor=pointer]:
+                        - /url: https://support.google.com/googleplay/android-developer/answer/12154973#base_plan_attributes
+                        - text: Scopri di più
+                    - radiogroup [ref=e12313]:
+                      - generic [ref=e12314] [cursor=pointer]:
+                        - radio "Calcola automaticamente il periodo di sospensione dell'account (consigliato)" [checked] [ref=e12316]
+                        - generic [ref=e12320]:
+                          - text: Calcola automaticamente il periodo di sospensione dell'account (consigliato)
+                          - generic [ref=e12321]:
+                            - paragraph [ref=e12322]:
+                              - strong [ref=e12323]: Sospensione dell'account per 53 giorni
+                            - paragraph [ref=e12324]: Calcolato in base al periodo di tolleranza, con un totale massimo di 60 giorni
+                      - generic [ref=e12325] [cursor=pointer]:
+                        - radio "Personalizza il periodo di sospensione dell'account" [ref=e12327]
+                        - generic [ref=e12330]: Personalizza il periodo di sospensione dell'account
+                - group "Cambio di offerta e piano base da parte dei clienti" [ref=e12332]:
+                  - generic [ref=e12335]:
+                    - text: Cambio di offerta e piano base da parte dei clienti
+                    - button "Descrizione comando per \"Cambio di offerta e piano base da parte dei clienti\"" [ref=e12338] [cursor=pointer]:
+                      - img [ref=e12339]: help
+                  - generic [ref=e12341]:
+                    - button "Addebito alla data di fatturazione successiva" [ref=e12344] [cursor=pointer]:
+                      - generic [ref=e12345]: Addebito alla data di fatturazione successiva
+                      - img [ref=e12347]: arrow_drop_down
+                    - generic [ref=e12348]:
+                      - text: Scegli come applicare gli eventuali giorni pagati rimanenti se gli utenti modificano le offerte.
+                      - link "Scopri di più sugli abbonamenti Google Play" [ref=e12350] [cursor=pointer]:
+                        - /url: https://support.google.com/googleplay/android-developer/answer/12154973#base_plan_attributes
+                        - text: Scopri di più
+                - group "Riabbonati" [ref=e12352]:
+                  - generic [ref=e12355]: Riabbonati
+                  - generic [ref=e12357]:
+                    - button "Consenti" [ref=e12360] [cursor=pointer]:
+                      - generic [ref=e12361]: Consenti
+                      - img [ref=e12363]: arrow_drop_down
+                    - generic [ref=e12364]:
+                      - text: Consenti agli utenti di riabbonarsi dal Play Store dopo l'annullamento o la scadenza del loro abbonamento.
+                      - link "Scopri di più sulla modalità di riabbonamento" [ref=e12366] [cursor=pointer]:
+                        - /url: https://support.google.com/googleplay/android-developer/answer/12154973#base_plan_attributes
+                        - text: Scopri di più
+              - generic [ref=e4360] [cursor=pointer]:
+                - radio "Pagamento anticipato" [ref=e4362]
+                - generic [ref=e4365]:
+                  - text: Pagamento anticipato
+                  - generic [ref=e4366]: Gli utenti pagano in anticipo. Dovranno effettuare un nuovo pagamento per estendere il piano.
+              - generic [ref=e4369] [cursor=pointer]:
+                - radio "Rate" [ref=e4371]
+                - generic [ref=e4374]:
+                  - text: Rate
+                  - generic [ref=e4375]: Gli utenti si impegnano a effettuare un numero fisso di pagamenti mensili. I prezzi sono impostati per l'importo del pagamento mensile. Questa opzione è disponibile solo in alcuni paesi e regioni.
+          - group "Tag" [ref=e4377]:
+            - generic [ref=e4380]:
+              - text: Tag
+              - button "Descrizione comando per \"Tag\"" [ref=e4383] [cursor=pointer]:
+                - img [ref=e4384]: help
+            - generic [ref=e4388]:
+              - grid [ref=e4392]:
+                - row [ref=e4393]:
+                  - gridcell [ref=e4394]:
+                    - textbox "Inserisci tag" [ref=e4395]:
+                      - /placeholder: ""
+              - generic [ref=e4396]: I tag devono iniziare con una lettera minuscola e possono contenere numeri (0-9), lettere minuscole (a-z), trattini (-) e massimo 20 caratteri.
+          - generic [ref=e4400]:
+            - generic [ref=e4404]:
+              - heading "Prezzo e disponibilità" [level=2] [ref=e4409]
+              - generic [ref=e4413]:
+                - button "Gestisci disponibilità a livello di paese/regione" [ref=e4415]:
+                  - generic [ref=e4417]: Gestisci disponibilità a livello di paese/regione
+                - button "Set prices" [ref=e4420]:
+                  - generic [ref=e4422]: Set prices
+            - generic [ref=e4423]:
+              - generic [ref=e4424]:
+                - generic [ref=e4427]:
+                  - generic [ref=e4428]: Visualizza prezzi locali
+                  - button "Visualizza prezzi locali Tutte le regioni" [ref=e4431] [cursor=pointer]:
+                    - generic [ref=e4434]: Tutte le regioni
+                    - img [ref=e4436]: arrow_drop_down
+                - search "Cerca paese o regione per nome" [ref=e4440]:
+                  - generic [ref=e4442]:
+                    - generic:
+                      - img: search
+                    - generic: Cerca paese o regione per nome
+                    - textbox "Cerca paese o regione per nome" [ref=e4443]
+              - grid "Prezzi" [ref=e4454]:
+                - row "Paese/regione Prezzo Tasse" [ref=e14171]:
+                  - columnheader "Paese/regione" [ref=e14172] [cursor=pointer]
+                  - columnheader "Prezzo" [ref=e14173] [cursor=pointer]
+                  - columnheader "Tasse" [ref=e14174] [cursor=pointer]
+                - row "Algeria 525,00 DZD Cella tabella" [ref=e14175]:
+                  - gridcell "Algeria" [ref=e14176]:
+                    - generic [ref=e14180]: Algeria
+                  - gridcell "525,00 DZD" [ref=e14181]:
+                    - generic [ref=e14185]: 525,00 DZD
+                  - gridcell "Cella tabella" [ref=e14186]:
+                    - generic "Cella tabella" [ref=e14190]:
+                      - generic [ref=e14192]: Nessuna IVA
+                - row "Arabia Saudita 17,99 SAR Cella tabella" [ref=e14193]:
+                  - gridcell "Arabia Saudita" [ref=e14194]:
+                    - generic [ref=e14198]: Arabia Saudita
+                  - gridcell "17,99 SAR" [ref=e14199]:
+                    - generic [ref=e14203]: 17,99 SAR
+                  - gridcell "Cella tabella" [ref=e14204]:
+                    - generic "Cella tabella" [ref=e14208]:
+                      - generic [ref=e14210]: 15%
+                - row "Australia 6,99 AUD Cella tabella" [ref=e14211]:
+                  - gridcell "Australia" [ref=e14212]:
+                    - generic [ref=e14216]: Australia
+                  - gridcell "6,99 AUD" [ref=e14217]:
+                    - generic [ref=e14221]: 6,99 AUD
+                  - gridcell "Cella tabella" [ref=e14222]:
+                    - generic "Cella tabella" [ref=e14226]:
+                      - generic [ref=e14228]: 10%
+                - row "Austria 4,19 EUR Cella tabella" [ref=e14229]:
+                  - gridcell "Austria" [ref=e14230]:
+                    - generic [ref=e14234]: Austria
+                  - gridcell "4,19 EUR" [ref=e14235]:
+                    - generic [ref=e14239]: 4,19 EUR
+                  - gridcell "Cella tabella" [ref=e14240]:
+                    - generic "Cella tabella" [ref=e14244]:
+                      - generic [ref=e14246]: 20%
+                - row "Bahrein 4,49 USD Cella tabella" [ref=e14247]:
+                  - gridcell "Bahrein" [ref=e14248]:
+                    - generic [ref=e14252]: Bahrein
+                  - gridcell "4,49 USD" [ref=e14253]:
+                    - generic [ref=e14257]: 4,49 USD
+                  - gridcell "Cella tabella" [ref=e14258]:
+                    - generic "Cella tabella" [ref=e14262]:
+                      - generic [ref=e14264]: 10%
+                - row "Bangladesh 550,00 BDT Cella tabella" [ref=e14265]:
+                  - gridcell "Bangladesh" [ref=e14266]:
+                    - generic [ref=e14270]: Bangladesh
+                  - gridcell "550,00 BDT" [ref=e14271]:
+                    - generic [ref=e14275]: 550,00 BDT
+                  - gridcell "Cella tabella" [ref=e14276]:
+                    - generic "Cella tabella" [ref=e14280]:
+                      - generic [ref=e14282]: 15%
+                - row "Belgio 4,19 EUR Cella tabella" [ref=e14283]:
+                  - gridcell "Belgio" [ref=e14284]:
+                    - generic [ref=e14288]: Belgio
+                  - gridcell "4,19 EUR" [ref=e14289]:
+                    - generic [ref=e14293]: 4,19 EUR
+                  - gridcell "Cella tabella" [ref=e14294]:
+                    - generic "Cella tabella" [ref=e14298]:
+                      - generic [ref=e14300]: 21%
+                - row "Bermuda 3,99 USD Cella tabella" [ref=e14301]:
+                  - gridcell "Bermuda" [ref=e14302]:
+                    - generic [ref=e14306]: Bermuda
+                  - gridcell "3,99 USD" [ref=e14307]:
+                    - generic [ref=e14311]: 3,99 USD
+                  - gridcell "Cella tabella" [ref=e14312]:
+                    - generic "Cella tabella" [ref=e14316]:
+                      - generic [ref=e14318]: Nessuna IVA
+                - row "Bolivia 27,99 BOB Cella tabella" [ref=e14319]:
+                  - gridcell "Bolivia" [ref=e14320]:
+                    - generic [ref=e14324]: Bolivia
+                  - gridcell "27,99 BOB" [ref=e14325]:
+                    - generic [ref=e14329]: 27,99 BOB
+                  - gridcell "Cella tabella" [ref=e14330]:
+                    - generic "Cella tabella" [ref=e14334]:
+                      - generic [ref=e14336]: Nessuna IVA
+                - row "Brasile 22,99 BRL Cella tabella" [ref=e14337]:
+                  - gridcell "Brasile" [ref=e14338]:
+                    - generic [ref=e14342]: Brasile
+                  - gridcell "22,99 BRL" [ref=e14343]:
+                    - generic [ref=e14347]: 22,99 BRL
+                  - gridcell "Cella tabella" [ref=e14348]:
+                    - generic "Cella tabella" [ref=e14352]:
+                      - generic [ref=e14354]: Nessuna IVA
+                - row "Bulgaria 4,19 EUR Cella tabella" [ref=e14355]:
+                  - gridcell "Bulgaria" [ref=e14356]:
+                    - generic [ref=e14360]: Bulgaria
+                  - gridcell "4,19 EUR" [ref=e14361]:
+                    - generic [ref=e14365]: 4,19 EUR
+                  - gridcell "Cella tabella" [ref=e14366]:
+                    - generic "Cella tabella" [ref=e14370]:
+                      - generic [ref=e14372]: 20%
+                - row "Cambogia 3,99 USD Cella tabella" [ref=e14373]:
+                  - gridcell "Cambogia" [ref=e14374]:
+                    - generic [ref=e14378]: Cambogia
+                  - gridcell "3,99 USD" [ref=e14379]:
+                    - generic [ref=e14383]: 3,99 USD
+                  - gridcell "Cella tabella" [ref=e14384]:
+                    - generic "Cella tabella" [ref=e14388]:
+                      - generic [ref=e14390]: Nessuna IVA
+                - row "Camerun 2.700 XAF Cella tabella" [ref=e14391]:
+                  - gridcell "Camerun" [ref=e14392]:
+                    - generic [ref=e14396]: Camerun
+                  - gridcell "2.700 XAF" [ref=e14397]:
+                    - generic [ref=e14401]: 2.700 XAF
+                  - gridcell "Cella tabella" [ref=e14402]:
+                    - generic "Cella tabella" [ref=e14406]:
+                      - generic [ref=e14408]: 19,25%
+                - row "Canada 5,49 CAD Cella tabella" [ref=e14409]:
+                  - gridcell "Canada" [ref=e14410]:
+                    - generic [ref=e14414]: Canada
+                  - gridcell "5,49 CAD" [ref=e14415]:
+                    - generic [ref=e14419]: 5,49 CAD
+                  - gridcell "Cella tabella" [ref=e14420]:
+                    - generic "Cella tabella" [ref=e14424]:
+                      - generic [ref=e14426]: Nessuna IVA
+                - row "Cechia 99,99 CZK Cella tabella" [ref=e14427]:
+                  - gridcell "Cechia" [ref=e14428]:
+                    - generic [ref=e14432]: Cechia
+                  - gridcell "99,99 CZK" [ref=e14433]:
+                    - generic [ref=e14437]: 99,99 CZK
+                  - gridcell "Cella tabella" [ref=e14438]:
+                    - generic "Cella tabella" [ref=e14442]:
+                      - generic [ref=e14444]: 21%
+                - row "Cile 4.400 CLP Cella tabella" [ref=e14445]:
+                  - gridcell "Cile" [ref=e14446]:
+                    - generic [ref=e14450]: Cile
+                  - gridcell "4.400 CLP" [ref=e14451]:
+                    - generic [ref=e14455]: 4.400 CLP
+                  - gridcell "Cella tabella" [ref=e14456]:
+                    - generic "Cella tabella" [ref=e14460]:
+                      - generic [ref=e14462]: 19%
+                - row "Cipro 4,19 EUR Cella tabella" [ref=e14463]:
+                  - gridcell "Cipro" [ref=e14464]:
+                    - generic [ref=e14468]: Cipro
+                  - gridcell "4,19 EUR" [ref=e14469]:
+                    - generic [ref=e14473]: 4,19 EUR
+                  - gridcell "Cella tabella" [ref=e14474]:
+                    - generic "Cella tabella" [ref=e14478]:
+                      - generic [ref=e14480]: 19%
+                - row "Città del Vaticano 3,49 EUR Cella tabella" [ref=e14481]:
+                  - gridcell "Città del Vaticano" [ref=e14482]:
+                    - generic [ref=e14486]: Città del Vaticano
+                  - gridcell "3,49 EUR" [ref=e14487]:
+                    - generic [ref=e14491]: 3,49 EUR
+                  - gridcell "Cella tabella" [ref=e14492]:
+                    - generic "Cella tabella" [ref=e14496]:
+                      - generic [ref=e14498]: Nessuna IVA
+                - row "Colombia 15.500 COP Cella tabella" [ref=e14499]:
+                  - gridcell "Colombia" [ref=e14500]:
+                    - generic [ref=e14504]: Colombia
+                  - gridcell "15.500 COP" [ref=e14505]:
+                    - generic [ref=e14509]: 15.500 COP
+                  - gridcell "Cella tabella" [ref=e14510]:
+                    - generic "Cella tabella" [ref=e14514]:
+                      - generic [ref=e14516]: Nessuna IVA
+                - row "Corea del Sud 6.500 KRW Cella tabella" [ref=e14517]:
+                  - gridcell "Corea del Sud" [ref=e14518]:
+                    - generic [ref=e14522]: Corea del Sud
+                  - gridcell "6.500 KRW" [ref=e14523]:
+                    - generic [ref=e14527]: 6.500 KRW
+                  - gridcell "Cella tabella" [ref=e14528]:
+                    - generic "Cella tabella" [ref=e14532]:
+                      - generic [ref=e14534]: 10%
+                - row "Costa Rica 2.000,00 CRC Cella tabella" [ref=e14535]:
+                  - gridcell "Costa Rica" [ref=e14536]:
+                    - generic [ref=e14540]: Costa Rica
+                  - gridcell "2.000,00 CRC" [ref=e14541]:
+                    - generic [ref=e14545]: 2.000,00 CRC
+                  - gridcell "Cella tabella" [ref=e14546]:
+                    - generic "Cella tabella" [ref=e14550]:
+                      - generic [ref=e14552]: Nessuna IVA
+                - row "Costa d’Avorio 2.700 XOF Cella tabella" [ref=e14553]:
+                  - gridcell "Costa d’Avorio" [ref=e14554]:
+                    - generic [ref=e14558]: Costa d’Avorio
+                  - gridcell "2.700 XOF" [ref=e14559]:
+                    - generic [ref=e14563]: 2.700 XOF
+                  - gridcell "Cella tabella" [ref=e14564]:
+                    - generic "Cella tabella" [ref=e14568]:
+                      - generic [ref=e14570]: 18%
+                - row "Croazia 4,39 EUR Cella tabella" [ref=e14571]:
+                  - gridcell "Croazia" [ref=e14572]:
+                    - generic [ref=e14576]: Croazia
+                  - gridcell "4,39 EUR" [ref=e14577]:
+                    - generic [ref=e14581]: 4,39 EUR
+                  - gridcell "Cella tabella" [ref=e14582]:
+                    - generic "Cella tabella" [ref=e14586]:
+                      - generic [ref=e14588]: 25%
+                - row "Danimarca 33,00 DKK 25% con 2 sostituzioni di località" [ref=e14589]:
+                  - gridcell "Danimarca" [ref=e14590]:
+                    - generic [ref=e14594]: Danimarca
+                  - gridcell "33,00 DKK" [ref=e14595]:
+                    - generic [ref=e14599]: 33,00 DKK
+                  - gridcell "25% con 2 sostituzioni di località" [ref=e14600]:
+                    - generic [ref=e14603]:
+                      - generic "25% con 2 sostituzioni di località" [ref=e14604]:
+                        - generic [ref=e14606]: 25% con 2 sostituzioni di località
+                        - generic [ref=e14607]: Passa il mouse sopra l'elemento per visualizzare tutte le aliquote
+                      - alert
+                - row "Ecuador 3,99 USD Cella tabella" [ref=e14608]:
+                  - gridcell "Ecuador" [ref=e14609]:
+                    - generic [ref=e14613]: Ecuador
+                  - gridcell "3,99 USD" [ref=e14614]:
+                    - generic [ref=e14618]: 3,99 USD
+                  - gridcell "Cella tabella" [ref=e14619]:
+                    - generic "Cella tabella" [ref=e14623]:
+                      - generic [ref=e14625]: Nessuna IVA
+                - row "Egitto 219,99 EGP Cella tabella" [ref=e14626]:
+                  - gridcell "Egitto" [ref=e14627]:
+                    - generic [ref=e14631]: Egitto
+                  - gridcell "219,99 EGP" [ref=e14632]:
+                    - generic [ref=e14636]: 219,99 EGP
+                  - gridcell "Cella tabella" [ref=e14637]:
+                    - generic "Cella tabella" [ref=e14641]:
+                      - generic [ref=e14643]: 14%
+                - row "El Salvador 3,99 USD Cella tabella" [ref=e14644]:
+                  - gridcell "El Salvador" [ref=e14645]:
+                    - generic [ref=e14649]: El Salvador
+                  - gridcell "3,99 USD" [ref=e14650]:
+                    - generic [ref=e14654]: 3,99 USD
+                  - gridcell "Cella tabella" [ref=e14655]:
+                    - generic "Cella tabella" [ref=e14659]:
+                      - generic [ref=e14661]: Nessuna IVA
+                - row "Emirati Arabi Uniti 15,99 AED Cella tabella" [ref=e14662]:
+                  - gridcell "Emirati Arabi Uniti" [ref=e14663]:
+                    - generic [ref=e14667]: Emirati Arabi Uniti
+                  - gridcell "15,99 AED" [ref=e14668]:
+                    - generic [ref=e14672]: 15,99 AED
+                  - gridcell "Cella tabella" [ref=e14673]:
+                    - generic "Cella tabella" [ref=e14677]:
+                      - generic [ref=e14679]: 5%
+                - row "Estonia 4,29 EUR Cella tabella" [ref=e14680]:
+                  - gridcell "Estonia" [ref=e14681]:
+                    - generic [ref=e14685]: Estonia
+                  - gridcell "4,29 EUR" [ref=e14686]:
+                    - generic [ref=e14690]: 4,29 EUR
+                  - gridcell "Cella tabella" [ref=e14691]:
+                    - generic "Cella tabella" [ref=e14695]:
+                      - generic [ref=e14697]: 24%
+                - row "Filippine 269,00 PHP Cella tabella" [ref=e14698]:
+                  - gridcell "Filippine" [ref=e14699]:
+                    - generic [ref=e14703]: Filippine
+                  - gridcell "269,00 PHP" [ref=e14704]:
+                    - generic [ref=e14708]: 269,00 PHP
+                  - gridcell "Cella tabella" [ref=e14709]:
+                    - generic "Cella tabella" [ref=e14713]:
+                      - generic [ref=e14715]: 12%
+                - row "Finlandia 4,39 EUR 25,5% con 1 sostituzione di località" [ref=e14716]:
+                  - gridcell "Finlandia" [ref=e14717]:
+                    - generic [ref=e14721]: Finlandia
+                  - gridcell "4,39 EUR" [ref=e14722]:
+                    - generic [ref=e14726]: 4,39 EUR
+                  - gridcell "25,5% con 1 sostituzione di località" [ref=e14727]:
+                    - generic [ref=e14730]:
+                      - generic "25,5% con 1 sostituzione di località" [ref=e14731]:
+                        - generic [ref=e14733]: 25,5% con 1 sostituzione di località
+                        - generic [ref=e14734]: Passa il mouse sopra l'elemento per visualizzare tutte le aliquote
+                      - alert
+                - row "Francia 4,19 EUR 20% con 11 sostituzioni di località" [ref=e14735]:
+                  - gridcell "Francia" [ref=e14736]:
+                    - generic [ref=e14740]: Francia
+                  - gridcell "4,19 EUR" [ref=e14741]:
+                    - generic [ref=e14745]: 4,19 EUR
+                  - gridcell "20% con 11 sostituzioni di località" [ref=e14746]:
+                    - generic [ref=e14749]:
+                      - generic "20% con 11 sostituzioni di località" [ref=e14750]:
+                        - generic [ref=e14752]: 20% con 11 sostituzioni di località
+                        - generic [ref=e14753]: Passa il mouse sopra l'elemento per visualizzare tutte le aliquote
+                      - alert
+                - row "Georgia 14,00 GEL Cella tabella" [ref=e14754]:
+                  - gridcell "Georgia" [ref=e14755]:
+                    - generic [ref=e14759]: Georgia
+                  - gridcell "14,00 GEL" [ref=e14760]:
+                    - generic [ref=e14764]: 14,00 GEL
+                  - gridcell "Cella tabella" [ref=e14765]:
+                    - generic "Cella tabella" [ref=e14769]:
+                      - generic [ref=e14771]: 18%
+                - row "Germania 4,19 EUR Cella tabella" [ref=e14772]:
+                  - gridcell "Germania" [ref=e14773]:
+                    - generic [ref=e14777]: Germania
+                  - gridcell "4,19 EUR" [ref=e14778]:
+                    - generic [ref=e14782]: 4,19 EUR
+                  - gridcell "Cella tabella" [ref=e14783]:
+                    - generic "Cella tabella" [ref=e14787]:
+                      - generic [ref=e14789]: 19%
+                - row "Ghana 55,00 GHS Cella tabella" [ref=e14790]:
+                  - gridcell "Ghana" [ref=e14791]:
+                    - generic [ref=e14795]: Ghana
+                  - gridcell "55,00 GHS" [ref=e14796]:
+                    - generic [ref=e14800]: 55,00 GHS
+                  - gridcell "Cella tabella" [ref=e14801]:
+                    - generic "Cella tabella" [ref=e14805]:
+                      - generic [ref=e14807]: 21,9%
+                - row "Giappone 700 JPY Cella tabella" [ref=e14808]:
+                  - gridcell "Giappone" [ref=e14809]:
+                    - generic [ref=e14813]: Giappone
+                  - gridcell "700 JPY" [ref=e14814]:
+                    - generic [ref=e14818]: 700 JPY
+                  - gridcell "Cella tabella" [ref=e14819]:
+                    - generic "Cella tabella" [ref=e14823]:
+                      - generic [ref=e14825]: 10%
+                - row "Gibilterra 3,09 GBP Cella tabella" [ref=e14826]:
+                  - gridcell "Gibilterra" [ref=e14827]:
+                    - generic [ref=e14831]: Gibilterra
+                  - gridcell "3,09 GBP" [ref=e14832]:
+                    - generic [ref=e14836]: 3,09 GBP
+                  - gridcell "Cella tabella" [ref=e14837]:
+                    - generic "Cella tabella" [ref=e14841]:
+                      - generic [ref=e14843]: Nessuna IVA
+                - row "Giordania 2,900 JOD Cella tabella" [ref=e14844]:
+                  - gridcell "Giordania" [ref=e14845]:
+                    - generic [ref=e14849]: Giordania
+                  - gridcell "2,900 JOD" [ref=e14850]:
+                    - generic [ref=e14854]: 2,900 JOD
+                  - gridcell "Cella tabella" [ref=e14855]:
+                    - generic "Cella tabella" [ref=e14859]:
+                      - generic [ref=e14861]: Nessuna IVA
+                - row "Grecia 4,29 EUR Cella tabella" [ref=e14862]:
+                  - gridcell "Grecia" [ref=e14863]:
+                    - generic [ref=e14867]: Grecia
+                  - gridcell "4,29 EUR" [ref=e14868]:
+                    - generic [ref=e14872]: 4,29 EUR
+                  - gridcell "Cella tabella" [ref=e14873]:
+                    - generic "Cella tabella" [ref=e14877]:
+                      - generic [ref=e14879]: 24%
+                - row "Hong Kong 33,00 HKD Cella tabella" [ref=e14880]:
+                  - gridcell "Hong Kong" [ref=e14881]:
+                    - generic [ref=e14885]: Hong Kong
+                  - gridcell "33,00 HKD" [ref=e14886]:
+                    - generic [ref=e14890]: 33,00 HKD
+                  - gridcell "Cella tabella" [ref=e14891]:
+                    - generic "Cella tabella" [ref=e14895]:
+                      - generic [ref=e14897]: Nessuna IVA
+                - row "India 430,00 INR Cella tabella" [ref=e14898]:
+                  - gridcell "India" [ref=e14899]:
+                    - generic [ref=e14903]: India
+                  - gridcell "430,00 INR" [ref=e14904]:
+                    - generic [ref=e14908]: 430,00 INR
+                  - gridcell "Cella tabella" [ref=e14909]:
+                    - generic "Cella tabella" [ref=e14913]:
+                      - generic [ref=e14915]: 18%
+                - row "Indonesia 68.000 IDR Cella tabella" [ref=e14916]:
+                  - gridcell "Indonesia" [ref=e14917]:
+                    - generic [ref=e14921]: Indonesia
+                  - gridcell "68.000 IDR" [ref=e14922]:
+                    - generic [ref=e14926]: 68.000 IDR
+                  - gridcell "Cella tabella" [ref=e14927]:
+                    - generic "Cella tabella" [ref=e14931]:
+                      - generic [ref=e14933]: Nessuna IVA
+                - row "Iraq 5.350 IQD Cella tabella" [ref=e14934]:
+                  - gridcell "Iraq" [ref=e14935]:
+                    - generic [ref=e14939]: Iraq
+                  - gridcell "5.350 IQD" [ref=e14940]:
+                    - generic [ref=e14944]: 5.350 IQD
+                  - gridcell "Cella tabella" [ref=e14945]:
+                    - generic "Cella tabella" [ref=e14949]:
+                      - generic [ref=e14951]: Nessuna IVA
+                - row "Irlanda 4,29 EUR Cella tabella" [ref=e14952]:
+                  - gridcell "Irlanda" [ref=e14953]:
+                    - generic [ref=e14957]: Irlanda
+                  - gridcell "4,29 EUR" [ref=e14958]:
+                    - generic [ref=e14962]: 4,29 EUR
+                  - gridcell "Cella tabella" [ref=e14963]:
+                    - generic "Cella tabella" [ref=e14967]:
+                      - generic [ref=e14969]: 23%
+                - row "Isole Cayman 3,99 USD Cella tabella" [ref=e14970]:
+                  - gridcell "Isole Cayman" [ref=e14971]:
+                    - generic [ref=e14975]: Isole Cayman
+                  - gridcell "3,99 USD" [ref=e14976]:
+                    - generic [ref=e14980]: 3,99 USD
+                  - gridcell "Cella tabella" [ref=e14981]:
+                    - generic "Cella tabella" [ref=e14985]:
+                      - generic [ref=e14987]: Nessuna IVA
+                - row "Isole Turks e Caicos 3,99 USD Cella tabella" [ref=e14988]:
+                  - gridcell "Isole Turks e Caicos" [ref=e14989]:
+                    - generic [ref=e14993]: Isole Turks e Caicos
+                  - gridcell "3,99 USD" [ref=e14994]:
+                    - generic [ref=e14998]: 3,99 USD
+                  - gridcell "Cella tabella" [ref=e14999]:
+                    - generic "Cella tabella" [ref=e15003]:
+                      - generic [ref=e15005]: Nessuna IVA
+                - row "Isole Vergini Britanniche 3,99 USD Cella tabella" [ref=e15006]:
+                  - gridcell "Isole Vergini Britanniche" [ref=e15007]:
+                    - generic [ref=e15011]: Isole Vergini Britanniche
+                  - gridcell "3,99 USD" [ref=e15012]:
+                    - generic [ref=e15016]: 3,99 USD
+                  - gridcell "Cella tabella" [ref=e15017]:
+                    - generic "Cella tabella" [ref=e15021]:
+                      - generic [ref=e15023]: Nessuna IVA
+                - row "Israele 13,00 ILS Cella tabella" [ref=e15024]:
+                  - gridcell "Israele" [ref=e15025]:
+                    - generic [ref=e15029]: Israele
+                  - gridcell "13,00 ILS" [ref=e15030]:
+                    - generic [ref=e15034]: 13,00 ILS
+                  - gridcell "Cella tabella" [ref=e15035]:
+                    - generic "Cella tabella" [ref=e15039]:
+                      - generic [ref=e15041]: Nessuna IVA
+                - row "Italia 4,29 EUR Cella tabella" [ref=e15042]:
+                  - gridcell "Italia" [ref=e15043]:
+                    - generic [ref=e15047]: Italia
+                  - gridcell "4,29 EUR" [ref=e15048]:
+                    - generic [ref=e15052]: 4,29 EUR
+                  - gridcell "Cella tabella" [ref=e15053]:
+                    - generic "Cella tabella" [ref=e15057]:
+                      - generic [ref=e15059]: 22%
+                - row "Kazakistan 2.390,00 KZT Cella tabella" [ref=e15060]:
+                  - gridcell "Kazakistan" [ref=e15061]:
+                    - generic [ref=e15065]: Kazakistan
+                  - gridcell "2.390,00 KZT" [ref=e15066]:
+                    - generic [ref=e15070]: 2.390,00 KZT
+                  - gridcell "Cella tabella" [ref=e15071]:
+                    - generic "Cella tabella" [ref=e15075]:
+                      - generic [ref=e15077]: 12%
+                - row "Kenya 600,00 KES Cella tabella" [ref=e15078]:
+                  - gridcell "Kenya" [ref=e15079]:
+                    - generic [ref=e15083]: Kenya
+                  - gridcell "600,00 KES" [ref=e15084]:
+                    - generic [ref=e15088]: 600,00 KES
+                  - gridcell "Cella tabella" [ref=e15089]:
+                    - generic "Cella tabella" [ref=e15093]:
+                      - generic [ref=e15095]: 16%
+                - row "Kuwait 3,99 USD Cella tabella" [ref=e15096]:
+                  - gridcell "Kuwait" [ref=e15097]:
+                    - generic [ref=e15101]: Kuwait
+                  - gridcell "3,99 USD" [ref=e15102]:
+                    - generic [ref=e15106]: 3,99 USD
+                  - gridcell "Cella tabella" [ref=e15107]:
+                    - generic "Cella tabella" [ref=e15111]:
+                      - generic [ref=e15113]: Nessuna IVA
+                - row "Lettonia 4,19 EUR Cella tabella" [ref=e15114]:
+                  - gridcell "Lettonia" [ref=e15115]:
+                    - generic [ref=e15119]: Lettonia
+                  - gridcell "4,19 EUR" [ref=e15120]:
+                    - generic [ref=e15124]: 4,19 EUR
+                  - gridcell "Cella tabella" [ref=e15125]:
+                    - generic "Cella tabella" [ref=e15129]:
+                      - generic [ref=e15131]: 21%
+                - row "Liechtenstein 3,50 CHF Cella tabella" [ref=e15132]:
+                  - gridcell "Liechtenstein" [ref=e15133]:
+                    - generic [ref=e15137]: Liechtenstein
+                  - gridcell "3,50 CHF" [ref=e15138]:
+                    - generic [ref=e15142]: 3,50 CHF
+                  - gridcell "Cella tabella" [ref=e15143]:
+                    - generic "Cella tabella" [ref=e15147]:
+                      - generic [ref=e15149]: 8,1%
+                - row "Lituania 4,19 EUR Cella tabella" [ref=e15150]:
+                  - gridcell "Lituania" [ref=e15151]:
+                    - generic [ref=e15155]: Lituania
+                  - gridcell "4,19 EUR" [ref=e15156]:
+                    - generic [ref=e15160]: 4,19 EUR
+                  - gridcell "Cella tabella" [ref=e15161]:
+                    - generic "Cella tabella" [ref=e15165]:
+                      - generic [ref=e15167]: 21%
+                - row "Lussemburgo 4,09 EUR Cella tabella" [ref=e15168]:
+                  - gridcell "Lussemburgo" [ref=e15169]:
+                    - generic [ref=e15173]: Lussemburgo
+                  - gridcell "4,09 EUR" [ref=e15174]:
+                    - generic [ref=e15178]: 4,09 EUR
+                  - gridcell "Cella tabella" [ref=e15179]:
+                    - generic "Cella tabella" [ref=e15183]:
+                      - generic [ref=e15185]: 17%
+                - row "Macao 32,88 MOP Cella tabella" [ref=e15186]:
+                  - gridcell "Macao" [ref=e15187]:
+                    - generic [ref=e15191]: Macao
+                  - gridcell "32,88 MOP" [ref=e15192]:
+                    - generic [ref=e15196]: 32,88 MOP
+                  - gridcell "Cella tabella" [ref=e15197]:
+                    - generic "Cella tabella" [ref=e15201]:
+                      - generic [ref=e15203]: Nessuna IVA
+                - row "Malaysia 17,99 MYR Cella tabella" [ref=e15204]:
+                  - gridcell "Malaysia" [ref=e15205]:
+                    - generic [ref=e15209]: Malaysia
+                  - gridcell "17,99 MYR" [ref=e15210]:
+                    - generic [ref=e15214]: 17,99 MYR
+                  - gridcell "Cella tabella" [ref=e15215]:
+                    - generic "Cella tabella" [ref=e15219]:
+                      - generic [ref=e15221]: 8%
+                - row "Marocco 44,99 MAD Cella tabella" [ref=e15222]:
+                  - gridcell "Marocco" [ref=e15223]:
+                    - generic [ref=e15227]: Marocco
+                  - gridcell "44,99 MAD" [ref=e15228]:
+                    - generic [ref=e15232]: 44,99 MAD
+                  - gridcell "Cella tabella" [ref=e15233]:
+                    - generic "Cella tabella" [ref=e15237]:
+                      - generic [ref=e15239]: 20%
+                - row "Messico 85,00 MXN Cella tabella" [ref=e15240]:
+                  - gridcell "Messico" [ref=e15241]:
+                    - generic [ref=e15245]: Messico
+                  - gridcell "85,00 MXN" [ref=e15246]:
+                    - generic [ref=e15250]: 85,00 MXN
+                  - gridcell "Cella tabella" [ref=e15251]:
+                    - generic "Cella tabella" [ref=e15255]:
+                      - generic [ref=e15257]: 16%
+                - row "Micronesia 3,99 USD Cella tabella" [ref=e15258]:
+                  - gridcell "Micronesia" [ref=e15259]:
+                    - generic [ref=e15263]: Micronesia
+                  - gridcell "3,99 USD" [ref=e15264]:
+                    - generic [ref=e15268]: 3,99 USD
+                  - gridcell "Cella tabella" [ref=e15269]:
+                    - generic "Cella tabella" [ref=e15273]:
+                      - generic [ref=e15275]: Nessuna IVA
+                - row "Monaco 4,19 EUR Cella tabella" [ref=e15276]:
+                  - gridcell "Monaco" [ref=e15277]:
+                    - generic [ref=e15281]: Monaco
+                  - gridcell "4,19 EUR" [ref=e15282]:
+                    - generic [ref=e15286]: 4,19 EUR
+                  - gridcell "Cella tabella" [ref=e15287]:
+                    - generic "Cella tabella" [ref=e15291]:
+                      - generic [ref=e15293]: 20%
+                - row "Mongolia 14.500,00 MNT Cella tabella" [ref=e15294]:
+                  - gridcell "Mongolia" [ref=e15295]:
+                    - generic [ref=e15299]: Mongolia
+                  - gridcell "14.500,00 MNT" [ref=e15300]:
+                    - generic [ref=e15304]: 14.500,00 MNT
+                  - gridcell "Cella tabella" [ref=e15305]:
+                    - generic "Cella tabella" [ref=e15309]:
+                      - generic [ref=e15311]: Nessuna IVA
+                - row "Myanmar (Birmania) 9.000 MMK Cella tabella" [ref=e15312]:
+                  - gridcell "Myanmar (Birmania)" [ref=e15313]:
+                    - generic [ref=e15317]: Myanmar (Birmania)
+                  - gridcell "9.000 MMK" [ref=e15318]:
+                    - generic [ref=e15322]: 9.000 MMK
+                  - gridcell "Cella tabella" [ref=e15323]:
+                    - generic "Cella tabella" [ref=e15327]:
+                      - generic [ref=e15329]: Nessuna IVA
+                - row "Nigeria 6.420,00 NGN Cella tabella" [ref=e15330]:
+                  - gridcell "Nigeria" [ref=e15331]:
+                    - generic [ref=e15335]: Nigeria
+                  - gridcell "6.420,00 NGN" [ref=e15336]:
+                    - generic [ref=e15340]: 6.420,00 NGN
+                  - gridcell "Cella tabella" [ref=e15341]:
+                    - generic "Cella tabella" [ref=e15345]:
+                      - generic [ref=e15347]: 7,5%
+                - row "Norvegia 49,00 NOK 25% con 1 sostituzione di località" [ref=e15348]:
+                  - gridcell "Norvegia" [ref=e15349]:
+                    - generic [ref=e15353]: Norvegia
+                  - gridcell "49,00 NOK" [ref=e15354]:
+                    - generic [ref=e15358]: 49,00 NOK
+                  - gridcell "25% con 1 sostituzione di località" [ref=e15359]:
+                    - generic [ref=e15362]:
+                      - generic "25% con 1 sostituzione di località" [ref=e15363]:
+                        - generic [ref=e15365]: 25% con 1 sostituzione di località
+                        - generic [ref=e15366]: Passa il mouse sopra l'elemento per visualizzare tutte le aliquote
+                      - alert
+                - row "Nuova Zelanda 7,99 NZD Cella tabella" [ref=e15367]:
+                  - gridcell "Nuova Zelanda" [ref=e15368]:
+                    - generic [ref=e15372]: Nuova Zelanda
+                  - gridcell "7,99 NZD" [ref=e15373]:
+                    - generic [ref=e15377]: 7,99 NZD
+                  - gridcell "Cella tabella" [ref=e15378]:
+                    - generic "Cella tabella" [ref=e15382]:
+                      - generic [ref=e15384]: 15%
+                - row "Oman 4,49 USD Cella tabella" [ref=e15385]:
+                  - gridcell "Oman" [ref=e15386]:
+                    - generic [ref=e15390]: Oman
+                  - gridcell "4,49 USD" [ref=e15391]:
+                    - generic [ref=e15395]: 4,49 USD
+                  - gridcell "Cella tabella" [ref=e15396]:
+                    - generic "Cella tabella" [ref=e15400]:
+                      - generic [ref=e15402]: 5%
+                - row "Paesi Bassi 4,19 EUR Cella tabella" [ref=e15403]:
+                  - gridcell "Paesi Bassi" [ref=e15404]:
+                    - generic [ref=e15408]: Paesi Bassi
+                  - gridcell "4,19 EUR" [ref=e15409]:
+                    - generic [ref=e15413]: 4,19 EUR
+                  - gridcell "Cella tabella" [ref=e15414]:
+                    - generic "Cella tabella" [ref=e15418]:
+                      - generic [ref=e15420]: 21%
+                - row "Pakistan 1.150 PKR Cella tabella" [ref=e15421]:
+                  - gridcell "Pakistan" [ref=e15422]:
+                    - generic [ref=e15426]: Pakistan
+                  - gridcell "1.150 PKR" [ref=e15427]:
+                    - generic [ref=e15431]: 1.150 PKR
+                  - gridcell "Cella tabella" [ref=e15432]:
+                    - generic "Cella tabella" [ref=e15436]:
+                      - generic [ref=e15438]: Nessuna IVA
+                - row "Panama 3,99 USD Cella tabella" [ref=e15439]:
+                  - gridcell "Panama" [ref=e15440]:
+                    - generic [ref=e15444]: Panama
+                  - gridcell "3,99 USD" [ref=e15445]:
+                    - generic [ref=e15449]: 3,99 USD
+                  - gridcell "Cella tabella" [ref=e15450]:
+                    - generic "Cella tabella" [ref=e15454]:
+                      - generic [ref=e15456]: Nessuna IVA
+                - row "Paraguay 30.000 PYG Cella tabella" [ref=e15457]:
+                  - gridcell "Paraguay" [ref=e15458]:
+                    - generic [ref=e15462]: Paraguay
+                  - gridcell "30.000 PYG" [ref=e15463]:
+                    - generic [ref=e15467]: 30.000 PYG
+                  - gridcell "Cella tabella" [ref=e15468]:
+                    - generic "Cella tabella" [ref=e15472]:
+                      - generic [ref=e15474]: Nessuna IVA
+                - row "Perù 13,99 PEN Cella tabella" [ref=e15475]:
+                  - gridcell "Perù" [ref=e15476]:
+                    - generic [ref=e15480]: Perù
+                  - gridcell "13,99 PEN" [ref=e15481]:
+                    - generic [ref=e15485]: 13,99 PEN
+                  - gridcell "Cella tabella" [ref=e15486]:
+                    - generic "Cella tabella" [ref=e15490]:
+                      - generic [ref=e15492]: Nessuna IVA
+                - row "Polonia 17,99 PLN Cella tabella" [ref=e15493]:
+                  - gridcell "Polonia" [ref=e15494]:
+                    - generic [ref=e15498]: Polonia
+                  - gridcell "17,99 PLN" [ref=e15499]:
+                    - generic [ref=e15503]: 17,99 PLN
+                  - gridcell "Cella tabella" [ref=e15504]:
+                    - generic "Cella tabella" [ref=e15508]:
+                      - generic [ref=e15510]: 23%
+                - row "Portogallo 4,29 EUR Cella tabella" [ref=e15511]:
+                  - gridcell "Portogallo" [ref=e15512]:
+                    - generic [ref=e15516]: Portogallo
+                  - gridcell "4,29 EUR" [ref=e15517]:
+                    - generic [ref=e15521]: 4,29 EUR
+                  - gridcell "Cella tabella" [ref=e15522]:
+                    - generic "Cella tabella" [ref=e15526]:
+                      - generic [ref=e15528]: 23%
+                - row "Qatar 15,00 QAR Cella tabella" [ref=e15529]:
+                  - gridcell "Qatar" [ref=e15530]:
+                    - generic [ref=e15534]: Qatar
+                  - gridcell "15,00 QAR" [ref=e15535]:
+                    - generic [ref=e15539]: 15,00 QAR
+                  - gridcell "Cella tabella" [ref=e15540]:
+                    - generic "Cella tabella" [ref=e15544]:
+                      - generic [ref=e15546]: Nessuna IVA
+                - row "Regno Unito 3,69 GBP Cella tabella" [ref=e15547]:
+                  - gridcell "Regno Unito" [ref=e15548]:
+                    - generic [ref=e15552]: Regno Unito
+                  - gridcell "3,69 GBP" [ref=e15553]:
+                    - generic [ref=e15557]: 3,69 GBP
+                  - gridcell "Cella tabella" [ref=e15558]:
+                    - generic "Cella tabella" [ref=e15562]:
+                      - generic [ref=e15564]: 20%
+                - row "Romania 20,99 RON Cella tabella" [ref=e15565]:
+                  - gridcell "Romania" [ref=e15566]:
+                    - generic [ref=e15570]: Romania
+                  - gridcell "20,99 RON" [ref=e15571]:
+                    - generic [ref=e15575]: 20,99 RON
+                  - gridcell "Cella tabella" [ref=e15576]:
+                    - generic "Cella tabella" [ref=e15580]:
+                      - generic [ref=e15582]: 21%
+                - row "Russia 329,00 RUB Cella tabella" [ref=e15583]:
+                  - gridcell "Russia" [ref=e15584]:
+                    - generic [ref=e15588]: Russia
+                  - gridcell "329,00 RUB" [ref=e15589]:
+                    - generic [ref=e15593]: 329,00 RUB
+                  - gridcell "Cella tabella" [ref=e15594]:
+                    - generic "Cella tabella" [ref=e15598]:
+                      - generic [ref=e15600]: Nessuna IVA
+                - row "San Marino 3,49 EUR Cella tabella" [ref=e15601]:
+                  - gridcell "San Marino" [ref=e15602]:
+                    - generic [ref=e15606]: San Marino
+                  - gridcell "3,49 EUR" [ref=e15607]:
+                    - generic [ref=e15611]: 3,49 EUR
+                  - gridcell "Cella tabella" [ref=e15612]:
+                    - generic "Cella tabella" [ref=e15616]:
+                      - generic [ref=e15618]: Nessuna IVA
+                - row "Senegal 2.700 XOF Cella tabella" [ref=e15619]:
+                  - gridcell "Senegal" [ref=e15620]:
+                    - generic [ref=e15624]: Senegal
+                  - gridcell "2.700 XOF" [ref=e15625]:
+                    - generic [ref=e15629]: 2.700 XOF
+                  - gridcell "Cella tabella" [ref=e15630]:
+                    - generic "Cella tabella" [ref=e15634]:
+                      - generic [ref=e15636]: 18%
+                - row "Serbia 499 RSD Cella tabella" [ref=e15637]:
+                  - gridcell "Serbia" [ref=e15638]:
+                    - generic [ref=e15642]: Serbia
+                  - gridcell "499 RSD" [ref=e15643]:
+                    - generic [ref=e15647]: 499 RSD
+                  - gridcell "Cella tabella" [ref=e15648]:
+                    - generic "Cella tabella" [ref=e15652]:
+                      - generic [ref=e15654]: 20%
+                - row "Singapore 5,98 SGD Cella tabella" [ref=e15655]:
+                  - gridcell "Singapore" [ref=e15656]:
+                    - generic [ref=e15660]: Singapore
+                  - gridcell "5,98 SGD" [ref=e15661]:
+                    - generic [ref=e15665]: 5,98 SGD
+                  - gridcell "Cella tabella" [ref=e15666]:
+                    - generic "Cella tabella" [ref=e15670]:
+                      - generic [ref=e15672]: 9%
+                - row "Slovacchia 4,29 EUR Cella tabella" [ref=e15673]:
+                  - gridcell "Slovacchia" [ref=e15674]:
+                    - generic [ref=e15678]: Slovacchia
+                  - gridcell "4,29 EUR" [ref=e15679]:
+                    - generic [ref=e15683]: 4,29 EUR
+                  - gridcell "Cella tabella" [ref=e15684]:
+                    - generic "Cella tabella" [ref=e15688]:
+                      - generic [ref=e15690]: 23%
+                - row "Slovenia 4,29 EUR Cella tabella" [ref=e15691]:
+                  - gridcell "Slovenia" [ref=e15692]:
+                    - generic [ref=e15696]: Slovenia
+                  - gridcell "4,29 EUR" [ref=e15697]:
+                    - generic [ref=e15701]: 4,29 EUR
+                  - gridcell "Cella tabella" [ref=e15702]:
+                    - generic "Cella tabella" [ref=e15706]:
+                      - generic [ref=e15708]: 22%
+                - row "Spagna 4,19 EUR 21% con 4 sostituzioni di località" [ref=e15709]:
+                  - gridcell "Spagna" [ref=e15710]:
+                    - generic [ref=e15714]: Spagna
+                  - gridcell "4,19 EUR" [ref=e15715]:
+                    - generic [ref=e15719]: 4,19 EUR
+                  - gridcell "21% con 4 sostituzioni di località" [ref=e15720]:
+                    - generic [ref=e15723]:
+                      - generic "21% con 4 sostituzioni di località" [ref=e15724]:
+                        - generic [ref=e15726]: 21% con 4 sostituzioni di località
+                        - generic [ref=e15727]: Passa il mouse sopra l'elemento per visualizzare tutte le aliquote
+                      - alert
+                - row "Sri Lanka 1.250,00 LKR Cella tabella" [ref=e15728]:
+                  - gridcell "Sri Lanka" [ref=e15729]:
+                    - generic [ref=e15733]: Sri Lanka
+                  - gridcell "1.250,00 LKR" [ref=e15734]:
+                    - generic [ref=e15738]: 1.250,00 LKR
+                  - gridcell "Cella tabella" [ref=e15739]:
+                    - generic "Cella tabella" [ref=e15743]:
+                      - generic [ref=e15745]: Nessuna IVA
+                - row "Stati Uniti 3,99 USD Nessuna IVA con 7 sostituzioni di località" [ref=e15746]:
+                  - gridcell "Stati Uniti" [ref=e15747]:
+                    - generic [ref=e15751]: Stati Uniti
+                  - gridcell "3,99 USD" [ref=e15752]:
+                    - generic [ref=e15756]: 3,99 USD
+                  - gridcell "Nessuna IVA con 7 sostituzioni di località" [ref=e15757]:
+                    - generic [ref=e15760]:
+                      - generic "Nessuna IVA con 7 sostituzioni di località" [ref=e15761]:
+                        - generic [ref=e15763]: Nessuna IVA con 7 sostituzioni di località
+                        - generic [ref=e15764]: Passa il mouse sopra l'elemento per visualizzare tutte le aliquote
+                      - alert
+                - row "Sudafrica 78,99 ZAR Cella tabella" [ref=e15765]:
+                  - gridcell "Sudafrica" [ref=e15766]:
+                    - generic [ref=e15770]: Sudafrica
+                  - gridcell "78,99 ZAR" [ref=e15771]:
+                    - generic [ref=e15775]: 78,99 ZAR
+                  - gridcell "Cella tabella" [ref=e15776]:
+                    - generic "Cella tabella" [ref=e15780]:
+                      - generic [ref=e15782]: 15%
+                - row "Svezia 47,00 SEK Cella tabella" [ref=e15783]:
+                  - gridcell "Svezia" [ref=e15784]:
+                    - generic [ref=e15788]: Svezia
+                  - gridcell "47,00 SEK" [ref=e15789]:
+                    - generic [ref=e15793]: 47,00 SEK
+                  - gridcell "Cella tabella" [ref=e15794]:
+                    - generic "Cella tabella" [ref=e15798]:
+                      - generic [ref=e15800]: 25%
+                - row "Svizzera 3,20 CHF Cella tabella" [ref=e15801]:
+                  - gridcell "Svizzera" [ref=e15802]:
+                    - generic [ref=e15806]: Svizzera
+                  - gridcell "3,20 CHF" [ref=e15807]:
+                    - generic [ref=e15811]: 3,20 CHF
+                  - gridcell "Cella tabella" [ref=e15812]:
+                    - generic "Cella tabella" [ref=e15816]:
+                      - generic [ref=e15818]: Nessuna IVA
+                - row "Taiwan 140,00 TWD Cella tabella" [ref=e15819]:
+                  - gridcell "Taiwan" [ref=e15820]:
+                    - generic [ref=e15824]: Taiwan
+                  - gridcell "140,00 TWD" [ref=e15825]:
+                    - generic [ref=e15829]: 140,00 TWD
+                  - gridcell "Cella tabella" [ref=e15830]:
+                    - generic "Cella tabella" [ref=e15834]:
+                      - generic [ref=e15836]: 5%
+                - row "Tanzania 10.000,00 TZS Cella tabella" [ref=e15837]:
+                  - gridcell "Tanzania" [ref=e15838]:
+                    - generic [ref=e15842]: Tanzania
+                  - gridcell "10.000,00 TZS" [ref=e15843]:
+                    - generic [ref=e15847]: 10.000,00 TZS
+                  - gridcell "Cella tabella" [ref=e15848]:
+                    - generic "Cella tabella" [ref=e15852]:
+                      - generic [ref=e15854]: Nessuna IVA
+                - row "Thailandia 125,00 THB Cella tabella" [ref=e15855]:
+                  - gridcell "Thailandia" [ref=e15856]:
+                    - generic [ref=e15860]: Thailandia
+                  - gridcell "125,00 THB" [ref=e15861]:
+                    - generic [ref=e15865]: 125,00 THB
+                  - gridcell "Cella tabella" [ref=e15866]:
+                    - generic "Cella tabella" [ref=e15870]:
+                      - generic [ref=e15872]: 7%
+                - row "Turchia 209,99 TRY Cella tabella" [ref=e15873]:
+                  - gridcell "Turchia" [ref=e15874]:
+                    - generic [ref=e15878]: Turchia
+                  - gridcell "209,99 TRY" [ref=e15879]:
+                    - generic [ref=e15883]: 209,99 TRY
+                  - gridcell "Cella tabella" [ref=e15884]:
+                    - generic "Cella tabella" [ref=e15888]:
+                      - generic [ref=e15890]: 20%
+                - row "Ucraina 204,99 UAH Cella tabella" [ref=e15891]:
+                  - gridcell "Ucraina" [ref=e15892]:
+                    - generic [ref=e15896]: Ucraina
+                  - gridcell "204,99 UAH" [ref=e15897]:
+                    - generic [ref=e15901]: 204,99 UAH
+                  - gridcell "Cella tabella" [ref=e15902]:
+                    - generic "Cella tabella" [ref=e15906]:
+                      - generic [ref=e15908]: 20%
+                - row "Ungheria 1.699 HUF Cella tabella" [ref=e15909]:
+                  - gridcell "Ungheria" [ref=e15910]:
+                    - generic [ref=e15914]: Ungheria
+                  - gridcell "1.699 HUF" [ref=e15915]:
+                    - generic [ref=e15919]: 1.699 HUF
+                  - gridcell "Cella tabella" [ref=e15920]:
+                    - generic "Cella tabella" [ref=e15924]:
+                      - generic [ref=e15926]: 27%
+                - row "Vietnam 108.000 VND Cella tabella" [ref=e15927]:
+                  - gridcell "Vietnam" [ref=e15928]:
+                    - generic [ref=e15932]: Vietnam
+                  - gridcell "108.000 VND" [ref=e15933]:
+                    - generic [ref=e15937]: 108.000 VND
+                  - gridcell "Cella tabella" [ref=e15938]:
+                    - generic "Cella tabella" [ref=e15942]:
+                      - generic [ref=e15944]: Nessuna IVA
+                - 'row "Espandi riga: Altri paesi/regioni (USD) Altri paesi/regioni (USD) Cella della tabella con popup" [ref=e15945]':
+                  - 'gridcell "Espandi riga: Altri paesi/regioni (USD) Altri paesi/regioni (USD)" [ref=e15946]':
+                    - 'generic "Espandi riga: Altri paesi/regioni (USD)" [ref=e15948]':
+                      - 'button "Espandi riga: Altri paesi/regioni (USD)" [ref=e15949] [cursor=pointer]':
+                        - img [ref=e15953]: arrow_right
+                    - generic [ref=e15957]: Altri paesi/regioni (USD)
+                  - gridcell [ref=e15958]
+                  - gridcell "Cella della tabella con popup" [ref=e15959]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic "Cella della tabella con popup"
+                - 'row "Espandi riga: Altri paesi/regioni (EUR) Altri paesi/regioni (EUR) Cella della tabella con popup" [ref=e15960]':
+                  - 'gridcell "Espandi riga: Altri paesi/regioni (EUR) Altri paesi/regioni (EUR)" [ref=e15961]':
+                    - 'generic "Espandi riga: Altri paesi/regioni (EUR)" [ref=e15963]':
+                      - 'button "Espandi riga: Altri paesi/regioni (EUR)" [ref=e15964] [cursor=pointer]':
+                        - img [ref=e15968]: arrow_right
+                    - generic [ref=e15972]: Altri paesi/regioni (EUR)
+                  - gridcell [ref=e15973]
+                  - gridcell "Cella della tabella con popup" [ref=e15974]:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic "Cella della tabella con popup"
+        - generic [ref=e6262]:
+          - generic [ref=e6263]:
+            - img [ref=e12267]: error
+            - generic [ref=e12268]: Impossibile salvare le modifiche
+          - generic [ref=e6266]:
+            - button "Salva" [active] [ref=e12270] [cursor=pointer]:
+              - generic [ref=e12273]: Salva
+            - button "Annulla" [ref=e12275]:
+              - generic [ref=e12278]: Annulla
+      - generic [ref=e255]:
+        - generic [ref=e256]:
+          - link "Aggiornamenti di prodotto" [ref=e257] [cursor=pointer]:
+            - /url: https://play.google.com/console/about/whats-new/
+          - link "Dashboard dello stato" [ref=e258] [cursor=pointer]:
+            - /url: https://status.play.google.com/
+          - link "Guida" [ref=e259] [cursor=pointer]:
+            - /url: /console/u/0/developers/4860322610470959338/help-and-support?app=4974057389412564303
+        - generic [ref=e260]:
+          - generic [ref=e261]: © 2025 Google
+          - link "Privacy" [ref=e262] [cursor=pointer]:
+            - /url: https://www.google.com/policies/privacy/
+          - link "Contratto di distribuzione per gli sviluppatori" [ref=e263] [cursor=pointer]:
+            - /url: https://play.google.com/about/developer-distribution-agreement.html
+          - link "Termini di servizio" [ref=e264] [cursor=pointer]:
+            - /url: https://play.google.com/about/console/terms-of-service/
+  - status [ref=e1359]
+```

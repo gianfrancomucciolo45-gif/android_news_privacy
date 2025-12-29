@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "706783102840",
+    "project_id": "android-news-app-a21e8",
+    "storage_bucket": "android-news-app-a21e8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706783102840:android:2a82fb207403dc13e42a8d",
+        "android_client_info": {
+          "package_name": "com.mucciologianfranco.android_news"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUX6Tz-b7waSGWc0gKJ1tJW9j9VU7DjIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

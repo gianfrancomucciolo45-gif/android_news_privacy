@@ -1,0 +1,26 @@
+{
+  "name": "android-news-play-console-automation",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prep": "playwright install --with-deps",
+    "login": "tsx src/login.ts",
+    "listing": "tsx src/configure-listing.ts",
+    "pricing": "tsx src/configure-pricing.ts",
+    "content": "tsx src/configure-app-content.ts",
+    "all": "npm run listing && npm run pricing && npm run content"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^20.11.0",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.48.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server-filesystem": "^2025.11.25",
+    "@playwright/mcp": "github:microsoft/playwright-mcp"
+  }
+}

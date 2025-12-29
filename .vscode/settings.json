@@ -1,0 +1,15 @@
+{
+  "github.copilot.chat.modelContextProtocol.servers": {
+    "playwright-browser": {
+      "command": "node",
+      "args": [
+        "${workspaceFolder}/tools/playwright/node_modules/@playwright/mcp/index.js"
+      ],
+      "options": {
+        "env": {
+          "PLAYWRIGHT_HEADLESS": "false"
+        }
+      }
+    }
+  }
+}

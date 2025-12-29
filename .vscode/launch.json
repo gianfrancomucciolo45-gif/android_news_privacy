@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Android News (Android)",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "Q4V4LRVWXGKBG6QS",
+            "program": "lib/main.dart"
+        },
+        {
+            "name": "Android News (Windows)",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "windows",
+            "program": "lib/main.dart"
+        },
+        {
+            "name": "Android News (Debug)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart"
+        }
+    ]
+}
